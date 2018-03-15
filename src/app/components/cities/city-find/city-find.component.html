@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>Enter City name</h2>
+	<div class="row">
+        <div class="col-md-6">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <form  method="get" >
+                    <input type="text" class="form-control input-lg" placeholder="Delhi" 
+                    [(ngModel)]="searchedText" name="search">
+                    </form>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-primary" (click)="searchCity()">Search</button>
+        </div>
+	</div>
+</div>
