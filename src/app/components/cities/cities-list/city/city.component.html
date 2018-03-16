@@ -1,3 +1,25 @@
-<h2>City : {{cities.name}}</h2>
-<h2>City Weather : {{cities.weather[0].main}}</h2>
-<h2>City Temp : {{cities.main.temp}}</h2>
+<div class="container">    
+		<div class="row">
+			<div class="col-md-8">				
+				<div class="panel panel-default  panel--styled">
+					<div class="panel-body">
+						<div class="col-md-12 panelTop">
+							<div class="col-md-8">	
+								<h2>{{cities.name}}</h2>
+								<p>City Weather : {{cities.weather[0].main}}</p>
+								<p>City Temp : {{cities.main.temp}}°C</p>
+							</div>
+						</div>
+						
+						<div class="col-md-12 panelBottom">
+							<div class="col-md-4 text-center">
+								<button class="btn btn-lg btn-add-to-cart" type="button" (click)="addCity(cities)"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Favourites
+								</button>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+<br>

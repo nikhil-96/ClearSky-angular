@@ -4,6 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
 import { OpenWeather } from '../configs/openweather.config';
+import {Json} from '../configs/json.config';
 
 @Injectable()
 export class CityService {
@@ -20,6 +21,19 @@ export class CityService {
 
   private handleError(error: Response) {
   	return Observable.throw(error.statusText);
+  }
+
+  //method to add cities to database
+  addCity(cities) {
+    return this.http.post(Json.db_url+"db",cities,{headers: this.headers})
+    .map(data => data.json(),
+      (error: any) => this.handleError(error));
+  }
+
+  showFav() {
+    return this.http.get(Json.db_url+"db")
+    .map(data => data.json(),
+      (error:any) => this.handleError(error));
   }
 
 }

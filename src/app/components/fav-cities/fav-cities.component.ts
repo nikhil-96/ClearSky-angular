@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CityService } from '../../services/city.service';
 
 @Component({
   selector: 'app-fav-cities',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavCitiesComponent implements OnInit {
 
-  constructor() { }
+	public favList : Array<any> = [];
+
+  constructor(private cityServive : CityService) { }
 
   ngOnInit() {
+  	this.cityServive.showFav().subscribe((res) => {
+  		this.favList = res.db;
+
+  	},(error) => {
+
+  	})
   }
 
 }

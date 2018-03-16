@@ -1,0 +1,212 @@
+{
+  "db": [
+    {
+      "coord": {
+        "lon": 75.86,
+        "lat": 25.17
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 30.4,
+        "pressure": 979.7,
+        "humidity": 29,
+        "temp_min": 30.4,
+        "temp_max": 30.4,
+        "sea_level": 1019.48,
+        "grnd_level": 979.7
+      },
+      "wind": {
+        "speed": 3.26,
+        "deg": 311.51
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521197861,
+      "sys": {
+        "message": 0.0061,
+        "country": "IN",
+        "sunrise": 1521162276,
+        "sunset": 1521205559
+      },
+      "id": 1266049,
+      "name": "Kota",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 77.03,
+        "lat": 28.46
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 30,
+        "pressure": 1009,
+        "humidity": 25,
+        "temp_min": 30,
+        "temp_max": 30
+      },
+      "visibility": 4000,
+      "wind": {
+        "speed": 5.1,
+        "deg": 310
+      },
+      "clouds": {
+        "all": 8
+      },
+      "dt": 1521199800,
+      "sys": {
+        "type": 1,
+        "id": 7809,
+        "message": 0.0102,
+        "country": "IN",
+        "sunrise": 1521162013,
+        "sunset": 1521205261
+      },
+      "id": 1270642,
+      "name": "Gurugram",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 78.47,
+        "lat": 17.36
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 27.59,
+        "pressure": 1012,
+        "humidity": 83,
+        "temp_min": 27,
+        "temp_max": 28
+      },
+      "visibility": 4000,
+      "wind": {
+        "speed": 6.2,
+        "deg": 70
+      },
+      "clouds": {
+        "all": 90
+      },
+      "dt": 1521202200,
+      "sys": {
+        "type": 1,
+        "id": 7830,
+        "message": 0.0426,
+        "country": "IN",
+        "sunrise": 1521161595,
+        "sunset": 1521204977
+      },
+      "id": 1269843,
+      "name": "Hyderabad",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 77.22,
+        "lat": 28.65
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 27,
+        "pressure": 1009,
+        "humidity": 32,
+        "temp_min": 27,
+        "temp_max": 27
+      },
+      "visibility": 4000,
+      "wind": {
+        "speed": 4.6,
+        "deg": 320
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521205200,
+      "sys": {
+        "type": 1,
+        "id": 7809,
+        "message": 0.0054,
+        "country": "IN",
+        "sunrise": 1521161964,
+        "sunset": 1521205217
+      },
+      "id": 1273294,
+      "name": "Delhi",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 76.76,
+        "lat": 30.72
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 20.2,
+        "pressure": 977.01,
+        "humidity": 36,
+        "temp_min": 20.2,
+        "temp_max": 20.2,
+        "sea_level": 1022.2,
+        "grnd_level": 977.01
+      },
+      "wind": {
+        "speed": 3.1,
+        "deg": 321.002
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521209788,
+      "sys": {
+        "message": 0.0082,
+        "country": "IN",
+        "sunrise": 1521162087,
+        "sunset": 1521205317
+      },
+      "id": 1274746,
+      "name": "Chandigarh",
+      "cod": 200
+    }
+  ]
+}
